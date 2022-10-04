@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+ul{
+    margin-top: 6.25rem;
+    width: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.125rem 0 ;
+}
+.content{
+    width: 90%;
+    padding: 2.1875rem;
+    background-color:rgb(164, 164, 164);
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center;
+}
+.person-name{
+    font-size: 1.125rem;
+    font-weight: 800;
+    color: rgb(43, 43, 43);
+    margin-bottom: 1.5625rem;
+}
+.person-email{
+    font-size: .875rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.5625rem;
+}
+.person-comment{
+    font-size: 1.25rem;
+    font-weight:1000;
+    color: rgb(73, 78, 82);
+    text-align: center;
+}
